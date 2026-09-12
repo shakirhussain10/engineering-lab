@@ -1,0 +1,11 @@
+body { 
+    max-width: 40rem; 
+    margin: 2rem auto; 
+    padding: 1rem; 
+    font: 1.1rem/1.6 sans-serif;
+background-color: aqua;
+} 
+   
+
+input, button { 
+    font: inherit; }
