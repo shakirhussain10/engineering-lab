@@ -9,4 +9,7 @@ Sep 8
  I learned that how I can create repository only on my computer 
 
  -- commits are stored locally
- --
+
+ Day 2:
+
+-- Branches, pull request and conflicts.
