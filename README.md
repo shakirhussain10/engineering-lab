@@ -13,3 +13,8 @@ Sep 8
  Day 2:
 
 -- Branches, pull request and conflicts.
+
+
+Day 3:
+
+-- made a repair request and learned the basic structure of git
