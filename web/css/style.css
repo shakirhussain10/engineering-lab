@@ -3,9 +3,22 @@ body {
     margin: 2rem auto; 
     padding: 1rem; 
     font: 1.1rem/1.6 sans-serif;
-background-color: aqua;
+
 } 
    
 
 input, button { 
-    font: inherit; }
+    font: inherit; 
+}
+
+form {
+    display: grid;
+  grid-template-rows: max-content;
+  gap: 4px;
+}
+
+select:focus,
+textarea:focus {
+    outline: 2px solid 005fcc;
+    outline-offset: 2px;
+}

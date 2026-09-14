@@ -1,24 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Repair request</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-<header>
-    <h1>Request a repair</h1>
-</header>
-<main>
-    
-            <form>
-                <label for="item">Item name</label>
-                <input id="item" name="item" required maxlength="80">
-                <button type="submit">Create request</button>
-            </form>
-        
-</main>
+  <body>
+    <header>
+      <h1>Request a repair</h1>
+        </header>
+    <main>
+      <form>
+        <label for="item">Item name</label>
+        <input id="item" name="item" required maxlength="80" />
+
+        <label for="description">Description</label>
+        <textarea name="description" id="description" rows="10"></textarea>
+
+        <label for="category">Category</label>
+        <select name="category" id="category">
+            <option value="">-- Select an option --</option>
+            <option value="inquiry">General inquiry</option>
+            <option value="bug">Bug Report</option>
+            <option value="feature">Feature Request</option>
+        </select>
+        <button type="submit">Create request</button>
+      </form>
+    </main>
 </body>
 </html>
