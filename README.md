@@ -20,3 +20,6 @@ Day 3:
 
 Day 4:
 
+-- worked on form, every field has a label. 
+-- client-side (browser) validation is fast but not secure. that's why we need server side because it can be bypassed 
+
