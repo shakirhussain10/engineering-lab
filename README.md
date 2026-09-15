@@ -23,3 +23,16 @@ Day 4:
 -- worked on form, every field has a label. 
 -- client-side (browser) validation is fast but not secure. that's why we need server side because it can be bypassed 
 
+Day 5:
+
+-- created a function that leaves original array untouched.
+
+HTTP = how they communicate
+JSON = a format for the data they communicate
+
+Request	           Status	                     Meaning
+GET index.html     200 OK or 304 Not Modified	File loaded successfully
+GET style.css	   304 Not Modified	            Browser used cached file
+GET favicon.ico	   404 Not Found	            File does not exist
+Invalid input	   400 Bad Request            	Wrong data sent
+Duplicate item	   409 Conflict	                Item already exists
