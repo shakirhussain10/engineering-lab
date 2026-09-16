@@ -36,3 +36,10 @@ GET style.css	   304 Not Modified	            Browser used cached file
 GET favicon.ico	   404 Not Found	            File does not exist
 Invalid input	   400 Bad Request            	Wrong data sent
 Duplicate item	   409 Conflict	                Item already exists
+
+
+Day 6:
+
+-- learning abit of python through functions
+
+Wrote a function in python. It turns valid numbers like 30 into 0.5 hours, and if a user enters a negative number like -1, it triggers a 400 Bad Request error to block it.
